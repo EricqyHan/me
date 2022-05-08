@@ -1,9 +1,11 @@
 # How to make a zettle entry
 
+https://rwx.gg/lang/md/basic/
+
 This is the body of the zettle1 (whith means "slip")
 
-* First Bullet
-* Second Bullet
+- First Bullet
+- Second Bullet
 
 But, when I have an ordered or numbered list:
 
@@ -11,7 +13,6 @@ But, when I have an ordered or numbered list:
 1. Second
 1. Third
 1. Fourth
-
 
 ```go
 import "fmt"
@@ -22,13 +23,13 @@ fmt.Println("Hello World!")
 }
 ```
 
-What is I want *italic* or **bold** or ***bolditalic***?
+What is I want _italic_ or **bold** or **_bolditalic_**?
 
 How about something that looks like `code`?
 
 And when I have a url I want it to print also so I always write it out like this:
 http://rwx.gg
 
-* I put references a the bottom
+- I put references a the bottom
 
-    #ettle #notes
+  #ettle #notes
