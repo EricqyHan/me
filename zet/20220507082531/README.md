@@ -1,4 +1,4 @@
-# How to make a zettle entry
+# How to make a zettelkasten entry
 
 https://rwx.gg/lang/md/basic/
 
@@ -23,13 +23,13 @@ fmt.Println("Hello World!")
 }
 ```
 
-What is I want _italic_ or **bold** or **_bolditalic_**?
+What is I want _italic_ or **bold** or **_bold italic_**?
 
 How about something that looks like `code`?
 
 And when I have a url I want it to print also so I always write it out like this:
 http://rwx.gg
 
-- I put references a the bottom
+- I put references a the bottom. Zettlekasten cool
 
-  #ettle #notes
+  #zettelkasten #notes
