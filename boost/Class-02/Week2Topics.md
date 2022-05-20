@@ -25,7 +25,7 @@ apt packages before next week.
 
 4. Install and configure terminal software (MS Terminal, iTerm2)
 
-5. What is UNIX and Linux? DIfference between Unix and Linux.
+5. What is UNIX and Linux? Difference between Unix and Linux.
    Linux was a IN You Face to Linux to Linux Torvald's HS professor. Minux was a free version of Linux. C language was created to make UNIX. Mac OS biggest unix distributor in the world. Unix was invented at AT&T Bell Labs
 
 - What is GNU? Who invented Linux?
@@ -42,8 +42,9 @@ apt packages before next week.
   - APT is baseline package for debian packages. Basis for all desktop linux systems that matter (advanced packaging tool)
   - Use apt-get anytime you are writing a script.
   - Find out more with man apt
-    NEVER USE `apt` IN A SCRIPT. Use apt-get and apt cache instead.
-    Everytime you are writing code you execute a command
+  - NEVER USE `apt` IN A SCRIPT. Use apt-get and apt cache instead.
+  - Everytime you are writing code you execute a command
+  - learn more with `man apt-get` and learn more about apt-get
 
 - What is a "package"?
 - How do I install software?
@@ -69,12 +70,19 @@ apt packages before next week.
   - Ubuntu Server
   - Red Hat
   - SUSE Linux
-- Learn About TTY
+- First thing you want to do when logging into a linux system is
+  - `sudo apt update` and then do a `sudo apt upgrade`
+  - this will make sure your system is up to date
+  - `sudo apt update` update all the soruces for packages - gets the latest in the list
+  - `sudo apt upgrade` upgrade **all** packages to latest
+
+note that `sudo` is do it as root/superuser
 
 ## Stuff to learn and look into
 
 - GREP and What it is
 - Learn about TTY
+- Minux
 
 ## Commands Used
 

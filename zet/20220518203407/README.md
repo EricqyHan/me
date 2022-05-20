@@ -17,8 +17,3 @@ C language was created to make UNIX
 
 Mac OS biggest unix distributor in the world
 Unix was invented at AT&T Bell Labs
-
-When to use apt vs apt-get?
-Use apt-get anytime you are writing a script.
-Find out more with man apt
-NEVER USE `apt` IN A SCRIPT. Use apt-get and apt cache instead.
