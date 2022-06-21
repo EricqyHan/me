@@ -28,10 +28,35 @@ How to connect to our VM (secure shell)
 - What packages need to be installed to connect with SSH? 01:57:40
 
 - hacking, debugging is largely about eliminating variables so we can get to problem
+- Should I USE VS CODE? - YES
+
+- Remote access considerations?
+- setting up a digital ocean server
+  - Reason Rob stopped teaching people how to setup cloud servers was becasue he was not teaching how to protect it
+  - If you have a server on the cloud... it will be hacked
+- How to setup a GCP "nano" server for free
+- Hack for good, honeypots are more fun?
+  - It is war more fun to make a honeypot to catch people than it is to hack
+- Digital Ocean
+  - Get an account and bring up a server and take it back down
+- How can I Get a VM on the internet?
+   - Digitalocean.com, Linode.com, vulture.com, GCP
+- Launching in headless 
+  - start headless and then login with ssh
+  - 
+
+## Homework for the week
+- play on different cloud platforms 
+
+
 - ## PUTTY for ssh access?
 
 ## Commands
 
+-`sudo atp-get install openssh-server` install open ssh
+
+- `sudo service ssh status` check to see ssh is running
+- `ip addr show` better version of `ip a` to get ip address
 - `ip a` show all ip addresses or `ipconfig /all` on windows
 - `clear` clears the screen
 - `which ssh` display full path to ssh program
@@ -47,12 +72,18 @@ How to connect to our VM (secure shell)
 - | less or | more - see scrolled output in terminal (q to quite)
 - <CTRL>c to interrupt whatever (exit)
 - <CTRL>d send "end of data/file"
+- `sudo apt install openssh-server`
+- `ssh eric@ip address of server` - to connect to server
+- `vboxmanage startvm <vm name> --type headless` - start vm headless
 
 ## Related
 
 ## NOTES
 
 00:36:46 Talk about how SSHD is better backdoor to install because it is harder to find
+What is JSON - structured data file format that consist of key value pairs and list call arrays that configuration settings
+
+JSON Crash Course
 
 ## Recap
 

@@ -27,4 +27,17 @@ Time Stamps
 02:04:49 Connecting to server with gitbash using ssh
 02:12:46 What about `putty` for ssh access? - come back to it
 02:14:00 2nd Break begins
-02:23:20 2nd Break ends
+02:26:20 2nd Break ends
+02:28:30 Putty
+02:47:43 Favorite Windows Terminal Settings
+02:56:49 What is JSON and JSON crash course
+03:00:45 VS Code installation
+03:10:50 What iS JSON continued
+03:27:50 3rd Break begins
+03:41:03 3rd Break ends
+03:49:05 Good Faith hacking and DOJ
+03:59:40 Get a VM on the internet
+04:04:30 Homework for the week
+04:12:40 Launching in Headless
+04:25:17 What is Vi/m Lesson I need?
+04:39:40 Why is Nano the devil
